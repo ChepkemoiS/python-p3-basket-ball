@@ -1,0 +1,4 @@
+ def test_player_numbers(self):
+      '''returns the player numbers for a given team'''
+      assert(player_numbers("Cleveland Cavaliers") == [31, 10, 4, 0, 35, 99])
+      assert(player_numbers("Washington Wizards") == [3, 33, 1, 42, 6, 8])

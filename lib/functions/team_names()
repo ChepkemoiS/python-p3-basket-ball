@@ -1,0 +1,3 @@
+ef test_team_names(self):
+      '''returns the team names'''
+      assert(team_names() == ["Cleveland Cavaliers", "Washington Wizards"])

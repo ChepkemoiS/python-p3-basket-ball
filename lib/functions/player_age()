@@ -1,28 +1,14 @@
-def player_age(player_name):
-    """
-    Returns the age of the given player.
-
-    Args:
-        player_name (str): The name of the player.
-
-    Returns:
-        int: The age of the given player.
-    """
-    # Initialize the dictionary of ages for each player
-    player_ages = {
-        "Jarrett Allen": 24,
-        "Darius Garland": 22,
-        "Evan Mobley": 21,
-        "Kevin Love": 34,
-        "Isaac Okoro": 21,
-        "Ricky Rubio": 31,
-        "Bradley Beal": 29,
-        "Kyle Kuzma": 27,
-        "Kentavious Caldwell-Pope": 29,
-        "Davis Bertans": 29,
-        "Kristaps Porzingis": 27,
-        "Rui Hachimura": 24,
-    }
-
-    # Return the age for the given player
-    return player_ages.get(player_name, "Player not found")
+def test_player_age(self):
+        '''knows the age of each player'''
+        assert(player_age("Jarrett Allen") == 24)
+        assert(player_age("Darius Garland") == 22)
+        assert(player_age("Evan Mobley") == 21)
+        assert(player_age("Kevin Love") == 34)
+        assert(player_age("Isaac Okoro") == 21)
+        assert(player_age("Ricky Rubio") == 31)
+        assert(player_age("Bradley Beal") == 29)
+        assert(player_age("Kyle Kuzma") == 27)
+        assert(player_age("Kentavious Caldwell-Pope") == 29)
+        assert(player_age("Davis Bertans") == 29)
+        assert(player_age("Kristaps Porzingis") == 27)
+        assert(player_age("Rui Hachimura") == 24)

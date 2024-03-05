@@ -1,0 +1,4 @@
+def test_team_colors(self):
+      '''knows the team colors of each team'''
+      assert(team_colors("Cleveland Cavaliers") == ["Wine", "Gold"])
+      assert(team_colors("Washington Wizards") == ["Red", "White", "Navy Blue"])
