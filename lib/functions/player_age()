@@ -1,0 +1,21 @@
+def player_age(player_name):
+    """
+    Returns the age of the given player.
+
+    Args:
+        player_name (str): The name of the player.
+
+    Returns:
+        int: The age of the given player.
+    """
+    # Initialize the dictionary of ages for each player
+    player_ages = {
+        "Player 1": 25,
+        "Player 2": 26,
+        "Player 3": 24,
+        "Player 4": 27,
+        "Player 5": 28
+    }
+
+    # Return the age for the given player
+    return player_ages.get(player_name, "Player not found")
