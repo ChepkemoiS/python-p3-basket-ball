@@ -10,11 +10,18 @@ def player_age(player_name):
     """
     # Initialize the dictionary of ages for each player
     player_ages = {
-        "Player 1": 25,
-        "Player 2": 26,
-        "Player 3": 24,
-        "Player 4": 27,
-        "Player 5": 28
+        "Jarrett Allen": 24,
+        "Darius Garland": 22,
+        "Evan Mobley": 21,
+        "Kevin Love": 34,
+        "Isaac Okoro": 21,
+        "Ricky Rubio": 31,
+        "Bradley Beal": 29,
+        "Kyle Kuzma": 27,
+        "Kentavious Caldwell-Pope": 29,
+        "Davis Bertans": 29,
+        "Kristaps Porzingis": 27,
+        "Rui Hachimura": 24,
     }
 
     # Return the age for the given player
